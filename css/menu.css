@@ -1,0 +1,40 @@
+
+/* Este es el Menu*/
+
+nav {
+    background-color: rgb(255, 5, 5);
+    color: rgb(3, 3, 3);
+}
+
+.menu { 
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    width: 10%;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo {
+    flex-grow: 3;
+}
+
+.logo img {
+    width: 15%;
+    /*Arriba Derecha  Abajo  Izquierda*/
+    padding: 1% 2% 1% 5%;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: rgb(255, 0, 0);
+    border: 5px white solid;
+    border-radius: 5px;
+}
